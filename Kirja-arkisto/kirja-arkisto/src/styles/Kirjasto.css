@@ -1,0 +1,187 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10em;
+    height: 100vh;
+}
+
+/* header-search */
+
+.header-search {
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-bottom: 2em;
+    padding: 0.7em;
+    border-radius: 5px;
+  }
+  
+  .header-search h1 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+  
+  .input-checbox-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .input-checbox-container input[type="search"] {
+    width: 15em;
+    height: 2.5em;
+    border: 1px solid black;
+  }
+  
+  .input-checbox-container button {
+    height: 2.5em;
+    margin-left: 0.2em;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    transition: .2s;
+  }
+
+/* header-search */
+
+
+input::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+.default-bg {
+    background-color: white;
+}
+.change-bg {
+    background-color: aqua;
+}
+
+h1 {
+    margin-bottom: 2em;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    display: flex;  
+    width: 100%;
+    flex-direction: row;  
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.row {
+    width: 20em;
+    height: 10em;
+   
+}
+
+@media (max-width: 700px) {
+    .form {
+      flex-direction: column;
+    }
+  }
+
+
+table {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    table-layout: fixed;
+    padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 60em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
+
+    
+}
+
+th, td, tr {
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 0.1em solid #DDD;
+  
+}
+
+thead {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+input, select {
+    width: 20em;
+    height: 2em;
+    margin: 0.2em;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btnAdd {
+    height: 2em;
+    width: 6em;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    transition: .2s;
+}
+
+.btnsAddCan {
+    height: 3em;
+    width: 12em;
+    margin-bottom: 0.5em;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    transition: .2s;
+}
+
+
+.btn-avaa {
+    width: 6em;
+    height: 2em;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    transition: .2s;
+}
+.btn-muokkaa {
+    width: 6em;
+    height: 2em;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    transition: .2s;
+}
+.btn-poista {
+    width: 6em;
+    height: 2em;
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    transition: .2s;
+}

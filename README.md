@@ -1,6 +1,6 @@
 # MERN Library Project
 
-This project is a collaborative effort using the MERN (MongoDB, Express.js, React.js, Node.js) stack to create a digital library application. The main focus of this project is to provide users with a platform to manage their own personal library collections.
+This is a school project using the MERN (MongoDB, Express.js, React.js, Node.js) stack to create a digital library application. The main focus of this project is to provide users with a platform to manage their own personal library collections.
 
 ## Features
 
